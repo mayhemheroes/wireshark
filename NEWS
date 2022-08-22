@@ -1,0 +1,74 @@
+Wireshark 4.1.0 Release Notes
+
+ This is an experimental release intended to test new features for
+ Wireshark 4.2.
+
+ What is Wireshark?
+
+  Wireshark is the world’s most popular network protocol analyzer. It is
+  used for troubleshooting, analysis, development and education.
+
+ What’s New
+
+  Many other improvements have been made. See the “New and Updated
+  Features” section below for more details.
+
+  New and Updated Features
+
+   The following features are new (or have been significantly updated)
+   since version 4.0.0:
+
+  New Protocol Support
+
+  Updated Protocol Support
+
+   Too many protocols have been updated to list here.
+
+  New and Updated Capture File Support
+
+ Getting Wireshark
+
+  Wireshark source code and installation packages are available from
+  https://www.wireshark.org/download.html.
+
+  Vendor-supplied Packages
+
+   Most Linux and Unix vendors supply their own Wireshark packages. You
+   can usually install or upgrade Wireshark using the package management
+   system specific to that platform. A list of third-party packages can
+   be found on the download page[1] on the Wireshark web site.
+
+ File Locations
+
+  Wireshark and TShark look in several different locations for
+  preference files, plugins, SNMP MIBS, and RADIUS dictionaries. These
+  locations vary from platform to platform. You can use "Help › About
+  Wireshark › Folders" or `tshark -G folders` to find the default
+  locations on your system.
+
+ Getting Help
+
+  The User’s Guide, manual pages and various other documentation can be
+  found at https://www.wireshark.org/docs/
+
+  Community support is available on Wireshark’s Q&A site[2] and on the
+  wireshark-users mailing list. Subscription information and archives
+  for all of Wireshark’s mailing lists can be found on the web site[3].
+
+  Bugs and feature requests can be reported on the issue tracker[4].
+
+  You can learn protocol analysis and meet Wireshark’s developers at
+  SharkFest[5].
+
+ Frequently Asked Questions
+
+  A complete FAQ is available on the Wireshark web site[6].
+
+ References
+
+   1. https://www.wireshark.org/download.html
+   2. https://ask.wireshark.org/
+   3. https://www.wireshark.org/lists/
+   4. https://gitlab.com/wireshark/wireshark/-/issues
+   5. https://sharkfest.wireshark.org
+   6. https://www.wireshark.org/faq.html
