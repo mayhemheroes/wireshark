@@ -1,0 +1,4 @@
+project: PROJECT
+target: fuzzshark_ip
+cmds:
+- cmd: /out/fuzzshark_ip
